@@ -545,15 +545,14 @@ section h3.section-subheading {
     margin-top: 0
 }
 .selected-text {
-    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: #fff;
+    font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+    color: #fec503;
     margin: 5px 0;
-    text-transform: uppercase;
     font-weight: 700;
     font-size: 23px;
 }
 .selected-text span {
-    background-color: #fec503;
+    
 }
 aside.clients img {
     margin: 50px auto
