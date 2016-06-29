@@ -253,7 +253,6 @@ header .intro-text .intro-lead-in span, header .intro-text .intro-heading span {
 @media (min-width: 768px) {
     header .intro-text {
         padding-top: 300px;
-        padding-bottom: 200px
     }
     header .intro-text .intro-lead-in {
         font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -271,8 +270,11 @@ header .intro-text .intro-lead-in span, header .intro-text .intro-heading span {
         margin-bottom: 50px
     }
 }
+section, header {
+    height: 100vh
+}
 section {
-    padding: 100px 0
+    padding: 60px 0
 }
 section h2.section-heading {
     font-size: 40px;
@@ -291,7 +293,7 @@ section h3.section-subheading {
 }
 @media (min-width: 768px) {
     section {
-        padding: 150px 0
+        padding: 80px 0
     }
 }
 .service-heading {
@@ -302,6 +304,9 @@ section h3.section-subheading {
     text-transform: uppercase;
     font-weight: 700;
     font-size: 12px;
+}
+.down-arrow-bottom{
+    padding-top: 10%;
 }
 #portfolio .portfolio-item {
     margin: 0 0 15px;
